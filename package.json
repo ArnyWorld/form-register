@@ -1,0 +1,20 @@
+{
+  "name": "form-tailwind",
+  "version": "1.0.0",
+  "description": "form with tailwind",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailDev": "npx tailwindcss -i ./src/css/tailwind.css -o ./src/css/styles.css --watch"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "tailwind"
+  ],
+  "author": "Arni",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
